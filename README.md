@@ -22,16 +22,17 @@ Included Makefile to ease compilation.
 ## Demos
 
 **Print Screen**
-![Print Screen Demo](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_screen.mp4)
+[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](demos/print_screen.mp4)
 
 **Print Rectangle**
-![Print Rectangle Demo](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_rectangle.mp4)
+[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](demos/print_rectangle.mp4)
 
 **Print String**
-![Print String Demo](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_string.mp4)
+[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](demos/print_string.mp4)
 
 **Print Image**
-![Print Image Demo](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_image.mp4)
+[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](demos/print_image.mp4)
+
 ## Acknowledgments
 
 - Developed for the **DSBM** subject at **FIB**.
