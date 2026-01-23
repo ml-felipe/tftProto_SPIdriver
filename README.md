@@ -23,19 +23,19 @@ Included Makefile to ease compilation.
 
 **Print Screen**
 
-https://github.com/ML-Felipe/tftProto_SPIdriver/blob/main/assets/print_image.mp4
+https://github.com/user-attachments/assets/716b16c6-5ba3-461f-b4a8-a7d27c74bc42
 
 **Print Rectangle**
 
-https://github.com/ML-Felipe/tftProto_SPIdriver/blob/main/assets/print_rectangle.mp4
+https://github.com/user-attachments/assets/dfd571b8-4b64-42c6-9c9c-d91a8242fadb
 
 **Print String**
 
-https://github.com/ML-Felipe/tftProto_SPIdriver/blob/main/assets/print_rectangle.mp4
+https://github.com/user-attachments/assets/89bc0d72-e08f-4d47-bd1d-789e6242fa19
 
 **Print Image**
 
-https://github.com/ML-Felipe/tftProto_SPIdriver/blob/main/assets/print_rectangle.mp4
+https://github.com/user-attachments/assets/cf8e8d88-01b8-451f-9a81-86fa527328eb
 
 ## Acknowledgments
 
