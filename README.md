@@ -21,23 +21,24 @@ Included Makefile to ease compilation.
 
 ## Demos
 
-demos/print_screen.mp4
-![Print Screen Demo](demos/print_screen.mp4)
+**Print Screen**
+
+![Print Screen Demo](demos/thumbnail.jpg)](demos/print_screen.mp4)
+
 
 **Print Rectangle**
 
-demos/print_rectangle.mp4
-![Print Rectangle Demo](demos/print_rectangle.mp4)
+![Print Rectangle Demo](demos/thumbnail.jpg)](demos/print_rectangle.mp4)
+
 
 **Print String**
 
-demos/print_string.mp4
-![Print String Demo](demos/print_string.mp4)
+![Print String Demo](demos/thumbnail.jpg)](demos/print_string.mp4)
+
 
 **Print Image**
 
-demos/print_image.mp4
-![Print Image Demo](demos/print_image.mp4)
+![Print Image Demo](demos/thumbnail.jpg)](demos/print_image.mp4)
 
 ## Acknowledgments
 
