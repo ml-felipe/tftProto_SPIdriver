@@ -23,19 +23,19 @@ Included Makefile to ease compilation.
 
 **Print Screen**
 
-https://github.com/user-attachments/assets/c52d8b04-e28b-4300-b853-b5fb74386f30
+demos/print_screen.mp4
 
 **Print Rectangle**
 
-https://github.com/user-attachments/assets/128e6174-0826-4e28-9c20-7fe4bb7ed664
+demos/print_rectangle.mp4
 
 **Print String**
 
-https://github.com/user-attachments/assets/bb51b6d5-d94d-4a55-bf27-600b0f6edc60
+demos/print_string.mp4
 
 **Print Image**
 
-https://github.com/user-attachments/assets/3f6621e1-d722-42c6-9e17-c4df9ed288a5
+demos/print_image.mp4
 
 ## Acknowledgments
 
