@@ -21,17 +21,23 @@ Included Makefile to ease compilation.
 
 ## Demos
 
-**Print Screen**
-[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_screen.mp4)
+demos/print_screen.mp4
+![Print Screen Demo](demos/print_screen.mp4)
 
 **Print Rectangle**
-[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_rectangle.mp4)
+
+demos/print_rectangle.mp4
+![Print Rectangle Demo](demos/print_rectangle.mp4)
 
 **Print String**
-[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_string.mp4)
+
+demos/print_string.mp4
+![Print String Demo](demos/print_string.mp4)
 
 **Print Image**
-[![Watch Video](https://img.shields.io/badge/▶-Watch_Video-red)](https://raw.githubusercontent.com/ML-Felipe/tftProto_SPIdriver/main/demos/print_image.mp4)
+
+demos/print_image.mp4
+![Print Image Demo](demos/print_image.mp4)
 
 ## Acknowledgments
 
