@@ -30,7 +30,8 @@ https://www.airspayce.com/mikem/bcm2835/index.html */
 void writeCMD(uint8_t reg);
 void writeDAT(uint16_t value);
 void writeREG(uint8_t reg, uint16_t value);
-uint16_t readREG(uint8_t reg);
+/* Returns -1 with errno=ENOTSUP: this backend is write-only. */
+int readREG(uint8_t reg);
 void tftReset(void);
 
 #endif // CONFIG_AND_SPI_H

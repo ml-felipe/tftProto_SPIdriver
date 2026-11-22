@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <errno.h>
 #include "include/config_and_spi.h"
 
 // Display variables
@@ -28,22 +29,28 @@ void writeDAT(uint16_t value) {
 
 void writeREG(uint8_t reg, uint16_t value) {
     writeCMD(reg);
-    writeDAT(value);
+    /* Register contents are 8-bit; GRAM pixels use writeDAT(). */
+    bcm2835_gpio_write(CS_PIN, LOW);
+    bcm2835_spi_transfer(0x72);
+    bcm2835_spi_transfer((uint8_t)value);
+    bcm2835_gpio_write(CS_PIN, HIGH);
 }
 
-uint16_t readREG(uint8_t reg) {
-    writeCMD(reg);
-    return 0x0000;
+int readREG(uint8_t reg) {
+    /* Reading requires bidirectional SDA, not the separate SPI0 MISO pin. */
+    (void)reg;
+    errno = ENOTSUP;
+    return -1;
 }
 
 // TFT reboot and initialization secuence
-void tftReset() {
+void tftReset(void) {
     bcm2835_gpio_write(RESET_PIN, LOW);
-    bcm2835_delay(500); // 250 ms
+    bcm2835_delay(500); // 500 ms
     bcm2835_gpio_write(RESET_PIN, HIGH);
-    bcm2835_delay(200);   // 6 ms
+    bcm2835_delay(200);   // 200 ms
 
-    uint16_t driverCode = readREG(0x00); // Unused
+    /* Register readback is not supported by this wiring/backend. */
 
     // Init sec
     writeREG(0xEA, 0x0000);    // Reset Power Control 1 

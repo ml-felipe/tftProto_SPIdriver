@@ -1,0 +1,6 @@
+*.o
+*.d
+*.exe
+/tests/test_bmp
+/tests/test_driver
+/tests/demo_host
