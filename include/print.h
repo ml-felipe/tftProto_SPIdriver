@@ -21,7 +21,7 @@ int get_bit(unsigned char byte, int n);
 uint16_t get_color(int pick);
 void printArea(int x1, int y1, int x2, int y2, int fill);
 void printChar(char *buffer);
-void printScreen();
+void printScreen(void);
 void printIMG(const char *filename);
 
 #endif
