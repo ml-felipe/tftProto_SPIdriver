@@ -1,16 +1,16 @@
 CC ?= cc
-CPPFLAGS += -Iinclude
+INCLUDES = -Iinclude
 CFLAGS ?= -O2 -g
-CFLAGS += -std=c11 -Wall -Wextra -Wpedantic
+WARNFLAGS = -std=c11 -Wall -Wextra -Wpedantic
 LDLIBS += -lbcm2835
 SRC = main.c config_and_spi.c print.c bmp.c
 OBJ = $(SRC:.c=.o)
 TARGET = tftDriver.exe
 all: $(TARGET)
 $(TARGET): $(OBJ)
-	$(CC) $(LDFLAGS) $^ $(LDLIBS) -o $@
+	$(CC) $(CFLAGS) $(LDFLAGS) $^ $(LDLIBS) -o $@
 %.o: %.c
-	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -MP -c $< -o $@
+	$(CC) $(CPPFLAGS) $(INCLUDES) $(CFLAGS) $(WARNFLAGS) -MMD -MP -c $< -o $@
 -include $(OBJ:.o=.d)
 run: $(TARGET)
 	sudo ./$(TARGET)

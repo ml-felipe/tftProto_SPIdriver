@@ -4,6 +4,7 @@
 #include <string.h>
 #include <errno.h>
 #include <limits.h>
+#include <ctype.h>
 #include "include/config_and_spi.h"
 #include "include/print.h"
 
@@ -17,6 +18,8 @@ uint16_t aux_color;
 static int read_integer(int *value) {
     char token[64], *end;
     if (scanf("%63s", token) != 1) return 0;
+    int next = getchar();
+    if (next != EOF && !isspace((unsigned char)next)) return 0;
     errno = 0;
     long number = strtol(token, &end, 10);
     if (errno || *end || end == token || number < INT_MIN || number > INT_MAX)
